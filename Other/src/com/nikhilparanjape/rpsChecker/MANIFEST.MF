@@ -1,0 +1,6 @@
+Manifest-Version: 1.4
+Main-Class: com.nikhilparanjape.rpsChecker.WebChecker
+
+Name: com/rpsChecker/
+Sealed: true
+

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=hexForRGBConversion
+comment1.target=java.lang.String\ convertHexToRGB(java.lang.String)
+comment1.text=\r\n\ @param\ hexForRGBConversion\r\n\ \ \ \ \ \ \ \ \ \ \ \ -\ hex\ value\ string\ for\ conveting\ to\ RGB\ format.\ Valid\ format\r\n\ \ \ \ \ \ \ \ \ \ \ \ is\:\ 0xXXXXXXXX\ e.g.\ 0x0077c8d2\r\n\ @return\ comma\ separated\ rgb\ values\ in\ the\ format\ rrr,ggg,\ bbb\ e.g.\r\n\ \ \ \ \ \ \ \ \ "119,200,210"\r\n
+comment2.params=rgbForHexConversion
+comment2.target=java.lang.String\ covertRGBToHex(java.lang.String)
+comment2.text=\r\n\ @param\ rgbForHexConversion\r\n\ \ \ \ \ \ \ \ \ \ \ -\ comma\ separated\ rgb\ values\ in\ the\ format\ rrr,ggg,\ bbb\ e.g.\r\n\ \ \ \ \ \ \ \ \ \ \ \ "119,200,210"\r\n\ @return\ equivalent\ hex\ in\ the\ format\ 0xXXXXXXXX\ e.g.\ 0x0077c8d2\r\n\r\n\ \ \ \ \ \ \ \ If\ the\ converted\ hex\ value\ is\ not\ 8\ characters\ long,\ pads\ the\r\n\ \ \ \ \ \ \ \ \ zeros\ in\ the\ front.\r\n
+numComments=3

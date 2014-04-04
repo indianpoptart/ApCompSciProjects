@@ -1,0 +1,6 @@
+Manifest-Version: 1.4
+Main-Class: com.apcompsci.WebChecker
+
+Name: com/apcompsci/
+Sealed: true
+

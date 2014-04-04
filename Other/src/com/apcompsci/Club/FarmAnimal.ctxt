@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=farmcreature\ farmnoise\ farmplace\ farmstatement
+comment0.target=FarmAnimal(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructors\ for\ objects\ of\ class\ Animal\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+numComments=2
