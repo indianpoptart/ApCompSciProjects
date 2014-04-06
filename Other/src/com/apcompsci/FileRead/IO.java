@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
  * or String file = IO.openFile();
  * 
  * @author Nikhil Paranjape
- * @version April 5 2013 - v3.1.1
+ * @version April 5 2013 - v3.1.2
  * 
  * USED BY PERMISSION FROM NIKHIL PARANJAPE
  */
@@ -25,12 +25,12 @@ public class IO {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JFileChooser fc = new JFileChooser();
-        fc.setDialogTitle("Choose the directory where you want to save your file ");
+        fc.setDialogTitle("Save File");
         fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
         if(fc.showSaveDialog(frame) != JFileChooser.CANCEL_OPTION){
             File f = fc.getSelectedFile();
             try{
-                BufferedWriter output = new BufferedWriter(new FileWriter(f.getAbsolutePath() + ".txt"));
+                BufferedWriter output = new BufferedWriter(new FileWriter(f.getAbsolutePath() + ".txt")); //change .txt to the filetype you want
                 output.write(message);
                 output.close();
             }
@@ -45,7 +45,7 @@ public class IO {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JFileChooser fc = new JFileChooser();
-        fc.setDialogTitle("Choose the directory of the file");
+        fc.setDialogTitle("Open File");
         fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
         if(fc.showOpenDialog(frame) != JFileChooser.CANCEL_OPTION){
             File f = fc.getSelectedFile();
